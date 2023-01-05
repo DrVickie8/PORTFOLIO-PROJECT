@@ -211,6 +211,13 @@
         color: var(--title-color);
         font-weight: var(--font-medium);
     }
+
+    .nav_link:hover{
+        color: var(--first-color);
+    }
+
+    
+
     /* show menu */ 
 
 
