@@ -276,4 +276,8 @@
         fill: var(--first-color);
     }
 
+    .home_blob-img{
+        width: 170px;
+    }
+
     /*=========  BUTTONS  ===========*/
