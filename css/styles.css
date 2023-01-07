@@ -271,4 +271,9 @@
         color: var(--first-color-alt);
     }
 
+    .home_blob{
+        width: 200px;
+        fill: var(--first-color);
+    }
+
     /*=========  BUTTONS  ===========*/
