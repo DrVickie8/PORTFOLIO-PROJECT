@@ -30,6 +30,8 @@ if(navToggle){
     })
 }
 
+
+
 // MENU HIDDEN
 // Validate if constant exists
 if(navClose){
@@ -37,6 +39,8 @@ if(navClose){
         navMenu.classList.remove('show-menu')
     })
 }
+
+
 
 // REMOVE MENU MOBILE
 const navLink = document.querySelectorAll('.nav_link')
