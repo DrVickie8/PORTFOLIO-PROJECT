@@ -9,6 +9,9 @@
     <!-- UNICONS -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -285,10 +288,10 @@
             <h2 class="section_title">Portfolio</h2>
             <span class="section_subtitle">Most recent work</span>
 
-            <div class="portfolio_container container">
-                <div>
+            <div class="portfolio_container container swiper">
+                <div class="swiper-wrapper">
                     <!--========== PORTFOLIO 1===========-->
-                    <div class="portfolio_content grid">
+                    <div class="portfolio_content grid swiper-slide">
                         <img src="img/Storytribe.svg" alt="" class="portfolio_img">
 
                         <div class="portfolio_data">
@@ -302,7 +305,7 @@
                     </div>
 
                     <!--========== PORTFOLIO 2===========-->
-                    <div class="portfolio_content grid">
+                    <div class="portfolio_content grid swiper-slide">
                         <img src="img/Header.svg" alt="" class="portfolio_img">
 
                         <div class="portfolio_data">
@@ -315,6 +318,17 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
             </div>
         </section>
 
@@ -326,7 +340,9 @@
     <!--========== FOOTER ===========-->
     <!--========== SCROLL TOP ===========-->
     <!--========== SWIPER JS ===========-->
+    <script src="js/swiper-bundle.min.js"></script>
 
+    <!--========== MAIN JS ===========-->
     <script src="/js/main.js"></script>
 </body>
 </html>
