@@ -17,5 +17,5 @@ RESPONSIVE portfolio website using HTML5, CSS3 and vanilla JavaScript with toggl
 
 ## Live website
 
-- [Portfolio site](https://drvickie8.github.io/PORTFOLIO-PROJECT/)
+- [Portfolio site](https://victoria-johnson-portfolio.netlify.app/)
 
