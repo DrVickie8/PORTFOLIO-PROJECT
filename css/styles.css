@@ -1033,7 +1033,7 @@ img {
     }
 
     .portfolio_img{
-      width: 320px;
+      width: 280px;
     }
 
      .portfolio_content{
@@ -1109,6 +1109,10 @@ img {
 
     .portfolio_content{
       column-gap: 5rem;
+    }
+
+    .portfolio_img{
+      width: 280px;
     }
 
     .swiper-portfolio-icon{
