@@ -1103,6 +1103,10 @@ img {
       grid-template-columns: repeat(3, 238px);
     }
 
+    .services_content{
+      padding: 6rem 2rem 2rem 2.5rem;
+    }
+
     .portfolio_content{
       column-gap: 5rem;
     }
