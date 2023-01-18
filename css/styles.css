@@ -919,6 +919,11 @@ img {
       grid-template-columns: repeat(2, 1fr);
     }
 
+    .about_container{
+      display: flex;
+      justify-content: center;
+    }
+
 }
 
 @media screen and (min-width: 768px){
