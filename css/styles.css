@@ -1009,15 +1009,16 @@ img {
     }
 
     .about_description{
-      text-align: initial;
+      text-align: center;
     }
 
     .about_info{
-      justify-content: space-between;
+      justify-content: center;
+      gap: 4rem;
     }
 
     .about_buttons{
-      justify-content: initial;
+      justify-content: center;
     }
 
     .services_container{
