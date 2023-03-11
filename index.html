@@ -1,139 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio Website</title>
 
     <!-- FAVICON -->
-    <link rel="shortcut icon" href="img/favicon/favicon-32x32.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="img/favicon/favicon-32x32.png"
+      type="image/x-icon"
+    />
 
     <!-- UNICONS -->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
 
     <!-- SWIPER CSS -->
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
     <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav_logo">Victoria</a>
+      <nav class="nav container">
+        <a href="#" class="nav_logo">Victoria</a>
 
-            <div class="nav_menu" id="nav-menu">
-                <ul class="nav_list grid">
-                    <li class="nav_item">
-                        <a href="#home" class="nav_link active-link">
-                            <i class="uil uil-estate nav_icon"></i>Home
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#about" class="nav_link">
-                            <i class="uil uil-user nav_icon"></i> About
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#skills" class="nav_link">
-                            <i class="uil uil-file-alt nav_icon"></i> Skills
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#services" class="nav_link">
-                            <i class="uil uil-briefcase-alt nav_icon"></i> Services
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#portfolio" class="nav_link">
-                            <i class="uil uil-scenery nav_icon"></i> Portfolio
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#contact" class="nav_link">
-                            <i class="uil uil-message nav_icon"></i> Contact me
-                        </a>
-                    </li>
-                    <i class="uil uil-times nav_close" id="nav-close"></i>
-                </ul>
-            </div>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list grid">
+            <li class="nav_item">
+              <a href="#home" class="nav_link active-link">
+                <i class="uil uil-estate nav_icon"></i>Home
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">
+                <i class="uil uil-user nav_icon"></i> About
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#skills" class="nav_link">
+                <i class="uil uil-file-alt nav_icon"></i> Skills
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#services" class="nav_link">
+                <i class="uil uil-briefcase-alt nav_icon"></i> Services
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#portfolio" class="nav_link">
+                <i class="uil uil-scenery nav_icon"></i> Portfolio
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">
+                <i class="uil uil-message nav_icon"></i> Contact me
+              </a>
+            </li>
+            <i class="uil uil-times nav_close" id="nav-close"></i>
+          </ul>
+        </div>
 
-            <div class="nav_btns">
-                <!-- Theme change button -->
-                <i class="uil uil-moon change-theme" id="theme-button"></i>
+        <div class="nav_btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
 
-                <div class="nav_toggle" id="nav-toggle">
-                    <i class="uil uil-apps"></i>
-                </div>
-            </div>
-        </nav>
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!--========== MAIN ===========-->
     <main class="main">
-        <!--========== HOME ===========-->
-        <section class="home section" id="home">
-            <div class="home_container container grid">
-                <div class="home_content grid">
-                    <div class="home_social">
-                        <a href="https://www.linkedin.com/in/victoria-johnson-30495a197/" target="_blank" class="home_social-icon">
-                            <i class="uil uil-linkedin-alt"></i>
-                        </a>
-                        <a href="https://github.com/DrVickie8" target="_blank" class="home_social-icon">
-                            <i class="uil uil-github-alt"></i>
-                        </a>
-                        <a href="https://twitter.com/EdikanVickie" target="_blank" class="home_social-icon">
-                            <i class="uil uil-twitter-alt"></i>
-                        </a>
-                    </div>
+      <!--========== HOME ===========-->
+      <section class="home section" id="home">
+        <div class="home_container container grid">
+          <div class="home_content grid">
+            <div class="home_social">
+              <a
+                href="https://www.linkedin.com/in/victoria-johnson-30495a197/"
+                target="_blank"
+                class="home_social-icon"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+              <a
+                href="https://github.com/DrVickie8"
+                target="_blank"
+                class="home_social-icon"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+              <a
+                href="https://twitter.com/EdikanVickie"
+                target="_blank"
+                class="home_social-icon"
+              >
+                <i class="uil uil-twitter-alt"></i>
+              </a>
+            </div>
 
-                    <div class="home_img">
-                        <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <mask id="mask0" mask-type="alpha">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+            <div class="home_img">
+              <svg
+                class="home_blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
                                 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
                                 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                            </mask>
-                            <g mask="url(#mask0)">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
                                 165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                                 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                <image class="home_blob-img" x="12" y="18" xlink:href="img/adjustedphoto-removebg-preview.png"/>
-                            </g>
-                        </svg>
-                        
-                    </div>
-
-                    <div class="home_data">
-                        <h1 class="home_title">Hi, I'm Victoria</h1>
-                        <h3 class="home_subtitle">Frontend developer</h3>
-                        <p class="home_description">A keen problem-solver with passion for using technology to improve people's lives.</p>
-                        <a href="#contact" class="button button--flex">
-                            Contact Me<i class="uil uil-message button_icon"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="home_scroll">
-                    <a href="#about" class="home_scroll-button button--flex">
-                        <i class="uil uil-mouse-alt home_scroll-mouse"></i>
-                        <span class="home_scroll-name">Scroll down</span>
-                        <i class="uil uil-arrow-down home_scroll-arrow"></i>
-                    </a>
-                </div>
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home_blob-img"
+                    x="12"
+                    y="18"
+                    xlink:href="img/adjustedphoto-removebg-preview.png"
+                  />
+                </g>
+              </svg>
             </div>
-        </section>
 
-        <!--========== ABOUT ===========-->
-        <section class="about section" id="about">
-           <h2 class="section_title">About Me</h2> 
-           <span class="section_subtitle">My Introduction</span>
+            <div class="home_data">
+              <h1 class="home_title">Hi, I'm Victoria</h1>
+              <h3 class="home_subtitle">Frontend developer</h3>
+              <p class="home_description">
+                A keen problem-solver with passion for using technology to
+                improve people's lives.
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contact Me<i class="uil uil-message button_icon"></i>
+              </a>
+            </div>
+          </div>
 
-           <div class="about_container container grid">
-            <!-- <div class="home_img">
+          <div class="home_scroll">
+            <a href="#about" class="home_scroll-button button--flex">
+              <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+              <span class="home_scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home_scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--========== ABOUT ===========-->
+      <section class="about section" id="about">
+        <h2 class="section_title">About Me</h2>
+        <span class="section_subtitle">My Introduction</span>
+
+        <div class="about_container container grid">
+          <!-- <div class="home_img">
                 <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <mask id="mask0" mask-type="alpha">
                         <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
@@ -152,91 +187,100 @@
                 
             </div> -->
 
-            <div class="about_data">
-                <p class="about_description">Innovative developer, with a passion for solving problems.
-                    Look forward to using proven skills in software
-                    development and technical writing in working with teams
-                    to generate revenue for businesses.
-                    </p>
+          <div class="about_data">
+            <p class="about_description">
+              Innovative developer, with a passion for solving problems. Look
+              forward to using proven skills in software development and
+              technical writing in working with teams to generate revenue for
+              businesses.
+            </p>
 
-                    <div class="about_info">
-                        <div>
-                            <span class="about_info-title">01</span>
-                            <span class="about_info-name">Year <br> experience</span>
-                        </div>
+            <div class="about_info">
+              <div>
+                <span class="about_info-title">01</span>
+                <span class="about_info-name"
+                  >Year <br />
+                  experience</span
+                >
+              </div>
 
-                        <div>
-                            <span class="about_info-title">3</span>
-                            <span class="about_info-name">Completed <br> projects</span>
-                        </div>
+              <div>
+                <span class="about_info-title">3</span>
+                <span class="about_info-name"
+                  >Completed <br />
+                  projects</span
+                >
+              </div>
 
-                        <!-- <div>
+              <!-- <div>
                             <span class="about_info-title">01</span>
                             <span class="about_info-name">Years <br> experience</span>
                         </div> -->
-
-                    </div>
-
-                    <div class="about_buttons">
-                        <a download="" href="pdf/Victoria_Johnson_Resume (1).pdf" class="button button--flex">
-                            Download resume<i class="uil uil-download-alt button_icon"></i>
-                        </a>
-                    </div>
             </div>
-           </div>
-        </section>
 
-        <!--========== SKILLS ===========-->
-        <section class="skills section" id="skills">
-            <h2 class="section_title">Skills</h2>
-            <span class="section_subtitle">My technical level</span>
+            <div class="about_buttons">
+              <a
+                download=""
+                href="pdf/Victoria_Johnson-Resume.pdf"
+                class="button button--flex"
+              >
+                Download resume<i class="uil uil-download-alt button_icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            <div class="skills_container container grid">
+      <!--========== SKILLS ===========-->
+      <section class="skills section" id="skills">
+        <h2 class="section_title">Skills</h2>
+        <span class="section_subtitle">My technical level</span>
+
+        <div class="skills_container container grid">
+          <div>
+            <!--========== SKILLS 1===========-->
+            <div class="skills_content skills_open">
+              <div class="skills_header">
+                <i class="uil uil-brackets-curly skills_icon"></i>
+
                 <div>
-                    <!--========== SKILLS 1===========-->
-                    <div class="skills_content skills_open">
-                        <div class="skills_header">
-                            <i class="uil uil-brackets-curly skills_icon"></i>
+                  <h1 class="skills_title">Frontend developer</h1>
+                  <span class="skills_subtitle">A year</span>
+                </div>
 
-                            <div>
-                                <h1 class="skills_title">Frontend developer</h1>
-                                <span class="skills_subtitle">A year</span>
-                            </div>
+                <i class="uil uil-angle-down skills_arrow"></i>
+              </div>
 
-                            <i class="uil uil-angle-down skills_arrow"></i>
-                        </div>
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">HTML5</h3>
+                  </div>
+                </div>
 
-                        <div class="skills_list grid">
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">HTML5</h3>
-                                </div>
-                            </div>
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">CSS3</h3>
+                  </div>
+                </div>
 
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">CSS3</h3>
-                                </div>
-                            </div>
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">JAVASCRIPT</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">JAVASCRIPT</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- <div class="skills_content skills_close">
+            <!-- <div class="skills_content skills_close">
                         
                     </div> -->
-                </div>
-            </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-
-        <!--========== QUALIFICATION ===========-->
-        <!-- <section class="qualification section">
+      <!--========== QUALIFICATION ===========-->
+      <!-- <section class="qualification section">
             <h2 class="section_title">Qualification</h2>
             <span class="section_subtitle">My personal journey</span>
 
@@ -254,248 +298,282 @@
             </div>
         </section> -->
 
+      <!--========== SERVICES ===========-->
+      <section class="services section" id="services">
+        <h2 class="section_title">Services</h2>
+        <span class="section_subtitle"> What I Offer</span>
 
-        <!--========== SERVICES ===========-->
-        <section class="services section" id="services">
-            <h2 class="section_title">Services</h2>
-            <span class="section_subtitle"> What I Offer</span>
-
-            <div class="services_container container grid">
-                <!--========== SERVICES 1===========-->
-                <div class="services_content">
-                    <!-- <div>
+        <div class="services_container container grid">
+          <!--========== SERVICES 1===========-->
+          <div class="services_content">
+            <!-- <div>
                         <i class="uil uil-arrow services_icon"></i>
                         <h3 class="services_title">Frontend <br> Developer</h3>
                     </div> -->
 
-                    <!-- <span class="button button--flex button--small button--link services_button">
+            <!-- <span class="button button--flex button--small button--link services_button">
                         View More 
                         <i class="uil uil-arrow-right button_icon"></i>
                     </span> -->
 
-                    <div class="services_modal">
-                        <div class="services_modal-content">
-                            <!-- <h4 class="services_modal-title">Frontend <br> Developer</h4>
+            <div class="services_modal">
+              <div class="services_modal-content">
+                <!-- <h4 class="services_modal-title">Frontend <br> Developer</h4>
                             <i class="uil uil-times services_modal-close"></i> -->
 
-                            <ul class="services_modal-services grid">
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>Web page development.</p>
-                                </li>
+                <ul class="services_modal-services grid">
+                  <li class="services_modal-service">
+                    <i class="uil uil-check-circle services_modal-icon"></i>
+                    <p>Web page development.</p>
+                  </li>
 
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>Optimizing user experience.</p>
-                                </li>
+                  <li class="services_modal-service">
+                    <i class="uil uil-check-circle services_modal-icon"></i>
+                    <p>Optimizing user experience.</p>
+                  </li>
 
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>Developing and maintaining user interface.</p>
-                                </li>
+                  <li class="services_modal-service">
+                    <i class="uil uil-check-circle services_modal-icon"></i>
+                    <p>Developing and maintaining user interface.</p>
+                  </li>
 
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>Implement design on mobile websites.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                  <li class="services_modal-service">
+                    <i class="uil uil-check-circle services_modal-icon"></i>
+                    <p>Implement design on mobile websites.</p>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
+      <!--========== PORTFOLIO ===========-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section_title">Portfolio</h2>
+        <span class="section_subtitle">Most recent work</span>
 
-        <!--========== PORTFOLIO ===========-->
-        <section class="portfolio section" id="portfolio">
-            <h2 class="section_title">Portfolio</h2>
-            <span class="section_subtitle">Most recent work</span>
+        <div class="portfolio_container container swiper">
+          <div class="swiper-wrapper">
+            <!--========== PORTFOLIO 1===========-->
+            <div class="portfolio_content grid swiper-slide">
+              <img
+                src="img/IMG-20221224-WA0016.jpg"
+                alt=""
+                class="portfolio_img"
+              />
 
-            <div class="portfolio_container container swiper">
-                <div class="swiper-wrapper">
-                    <!--========== PORTFOLIO 1===========-->
-                    <div class="portfolio_content grid swiper-slide">
-                        <img src="img/IMG-20221224-WA0016.jpg" alt="" class="portfolio_img">
-
-                        <div class="portfolio_data">
-                            <h3 class="portfolio_title">Storytribe blog</h3>
-                            <p class="portfolio_description">A responsive web3 decentralised application - blog that allow users to publish long-form posts.</p>
-                            <a href="https://storybite.netlify.app/" class="button button--flex button--small portfolio_button">
-                                Demo
-                                <i class="uil uil-arrow-right button_icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--========== PORTFOLIO 2===========-->
-                    <div class="portfolio_content grid swiper-slide">
-                        <img src="img/Header.svg" alt="" class="portfolio_img">
-
-                        <div class="portfolio_data">
-                            <h3 class="portfolio_title">CRAPPO Website</h3>
-                            <p class="portfolio_description">Recreate CRAPPO website, design and build login and registration pages.</p>
-                            <a href="https://web3ladies-crappo-project.netlify.app/" class="button button--flex button--small portfolio_button">
-                                Demo
-                                <i class="uil uil-arrow-right button_icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Add Arrows -->
-                <div class="swiper-button-next">
-                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                </div>
-                <div class="swiper-button-prev">
-                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                </div>
-
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">Storytribe blog</h3>
+                <p class="portfolio_description">
+                  A responsive web3 decentralised application - blog that allow
+                  users to publish long-form posts.
+                </p>
+                <a
+                  href="https://storybite.netlify.app/"
+                  class="button button--flex button--small portfolio_button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
             </div>
-        </section>
 
+            <!--========== PORTFOLIO 2===========-->
+            <div class="portfolio_content grid swiper-slide">
+              <img src="img/Header.svg" alt="" class="portfolio_img" />
 
-        <!--========== PROJECT IN MIND ===========-->
-        <section class="project section">
-            <div class="project_bg">
-                <div class="project_container container grid">
-                    <div class="project_data">
-                        <h2 class="project_title">You have a new project?</h2>
-                        <p class="project_description">Contact me now for your fully responsive and functional website.</p>
-                        <a href="#contact" class="button button--flex button--white">
-                            Contact Me
-                            <i class="uil uil-message project_icon button_icon"></i>
-                        </a>
-                    </div>
-
-                    <img src="img/adjustedphoto-removebg-preview.png" alt="" class="project_img">
-                </div>
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">CRAPPO Website</h3>
+                <p class="portfolio_description">
+                  Recreate CRAPPO website, design and build login and
+                  registration pages.
+                </p>
+                <a
+                  href="https://web3ladies-crappo-project.netlify.app/"
+                  class="button button--flex button--small portfolio_button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
             </div>
-        </section>
+          </div>
 
+          <!-- Add Arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
 
-        <!--========== CONTACT ME ===========-->
-        <section class="contact section" id="contact">
-            <h2 class="section_title">Contact Me</h2>
-            <span class="section_subtitle">Get in touch</span>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
 
-            <div class="contact_container container grid">
-                <div>
-                    <div class="contact_information">
-                        <i class="uil uil-phone contact_icon"></i>
-
-                        <div>
-                            <h3 class="contact_title">Call Me</h3>
-                            <span class="contact_subtitle">+234-810-395-6484</span>
-                        </div>
-                    </div>
-
-                    <div class="contact_information">
-                        <i class="uil uil-envelope contact_icon"></i>
-
-                        <div>
-                            <h3 class="contact_title">Email</h3>
-                            <span class="contact_subtitle">johnsonvickie884@gmail.com</span>
-                        </div>
-                    </div>
-
-                    <div class="contact_information">
-                        <i class="uil uil-map-marker contact_icon"></i>
-
-                        <div>
-                            <h3 class="contact_title">Location</h3>
-                            <span class="contact_subtitle">Lagos, Nigeria</span>
-                        </div>
-                    </div>
-                </div>
-
-                <form action="" class="contact_form grid">
-                    <div class="contact_inputs grid">
-                        <div class="contact_content">
-                            <label for="" class="contact_label">Name</label>
-                            <input type="text" class="contact_input">
-                        </div>
-
-                        <div class="contact_content">
-                            <label for="" class="contact_label">Email</label>
-                            <input type="email" class="contact_input">
-                        </div>
-                    </div>
-
-                    <div class="contact_content">
-                        <label for="" class="contact_label">Project</label>
-                        <input type="text" class="contact_input">
-                    </div>
-
-                    <div class="contact_content">
-                        <label for="" class="contact_label">Message</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
-                    </div>
-
-                    <div>
-                        <a href="#contact" class="button button-flex">
-                            Send Message
-                            <i class="uil uil-message button_icon"></i>
-                        </a>
-                    </div>
-                </form>
+      <!--========== PROJECT IN MIND ===========-->
+      <section class="project section">
+        <div class="project_bg">
+          <div class="project_container container grid">
+            <div class="project_data">
+              <h2 class="project_title">You have a new project?</h2>
+              <p class="project_description">
+                Contact me now for your fully responsive and functional website.
+              </p>
+              <a href="#contact" class="button button--flex button--white">
+                Contact Me
+                <i class="uil uil-message project_icon button_icon"></i>
+              </a>
             </div>
-        </section>
+
+            <img
+              src="img/adjustedphoto-removebg-preview.png"
+              alt=""
+              class="project_img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--========== CONTACT ME ===========-->
+      <section class="contact section" id="contact">
+        <h2 class="section_title">Contact Me</h2>
+        <span class="section_subtitle">Get in touch</span>
+
+        <div class="contact_container container grid">
+          <div>
+            <div class="contact_information">
+              <i class="uil uil-phone contact_icon"></i>
+
+              <div>
+                <h3 class="contact_title">Call Me</h3>
+                <span class="contact_subtitle">+234-810-395-6484</span>
+              </div>
+            </div>
+
+            <div class="contact_information">
+              <i class="uil uil-envelope contact_icon"></i>
+
+              <div>
+                <h3 class="contact_title">Email</h3>
+                <span class="contact_subtitle">johnsonvickie884@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact_information">
+              <i class="uil uil-map-marker contact_icon"></i>
+
+              <div>
+                <h3 class="contact_title">Location</h3>
+                <span class="contact_subtitle">Lagos, Nigeria</span>
+              </div>
+            </div>
+          </div>
+
+          <form action="" class="contact_form grid">
+            <div class="contact_inputs grid">
+              <div class="contact_content">
+                <label for="" class="contact_label">Name</label>
+                <input type="text" class="contact_input" />
+              </div>
+
+              <div class="contact_content">
+                <label for="" class="contact_label">Email</label>
+                <input type="email" class="contact_input" />
+              </div>
+            </div>
+
+            <div class="contact_content">
+              <label for="" class="contact_label">Project</label>
+              <input type="text" class="contact_input" />
+            </div>
+
+            <div class="contact_content">
+              <label for="" class="contact_label">Message</label>
+              <textarea
+                name=""
+                id=""
+                cols="0"
+                rows="7"
+                class="contact_input"
+              ></textarea>
+            </div>
+
+            <div>
+              <a href="#contact" class="button button-flex">
+                Send Message
+                <i class="uil uil-message button_icon"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
-
 
     <!--========== FOOTER ===========-->
     <footer class="footer">
-        <div class="footer_bg">
-            <div class="footer_container container grid">
-                <div>
-                    <h1 class="footer_title">Victoria</h1>
-                    <span class="footer_subtitle">Frontend developer</span>
-                </div>
+      <div class="footer_bg">
+        <div class="footer_container container grid">
+          <div>
+            <h1 class="footer_title">Victoria</h1>
+            <span class="footer_subtitle">Frontend developer</span>
+          </div>
 
-                <ul class="footer_links">
-                    <li>
-                        <a href="#services" class="footer_link">Services</a>
-                    </li>
+          <ul class="footer_links">
+            <li>
+              <a href="#services" class="footer_link">Services</a>
+            </li>
 
-                    <li>
-                        <a href="#portfolio" class="footer_link">Portfolio</a>
-                    </li>
+            <li>
+              <a href="#portfolio" class="footer_link">Portfolio</a>
+            </li>
 
-                    <li>
-                        <a href="#contact" class="footer_link">Contact</a>
-                    </li>
-                </ul>
+            <li>
+              <a href="#contact" class="footer_link">Contact</a>
+            </li>
+          </ul>
 
-                <div class="footer_socials">
-                    <a href="https://www.linkedin.com/in/victoria-johnson-30495a197/" target="_blank" class="footer_social">
-                        <i class="uil uil-linkedin-alt"></i>
-                    </a>
+          <div class="footer_socials">
+            <a
+              href="https://www.linkedin.com/in/victoria-johnson-30495a197/"
+              target="_blank"
+              class="footer_social"
+            >
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
 
-                    <a href="https://twitter.com/EdikanVickie" target="_blank" class="footer_social">
-                        <i class="uil uil-instagram"></i>
-                    </a>
+            <a
+              href="https://twitter.com/EdikanVickie"
+              target="_blank"
+              class="footer_social"
+            >
+              <i class="uil uil-instagram"></i>
+            </a>
 
-                    <a href="https://www.instagram.com/vickie_edikan/" target="_blank" class="footer_social">
-                        <i class="uil uil-twitter-alt"></i>
-                    </a>
-                </div>
-            </div>
-
-            <p class="footer_copy">&#169; Victoria. All rights reserved.</p>
+            <a
+              href="https://www.instagram.com/vickie_edikan/"
+              target="_blank"
+              class="footer_social"
+            >
+              <i class="uil uil-twitter-alt"></i>
+            </a>
+          </div>
         </div>
-    </footer>
 
+        <p class="footer_copy">&#169; Victoria. All rights reserved.</p>
+      </div>
+    </footer>
 
     <!--========== SCROLL TOP ===========-->
     <a href="#" class="scrollup" id="scroll-up">
-        <i class="uil uil-arrow-up scrollup_icon"></i>
+      <i class="uil uil-arrow-up scrollup_icon"></i>
     </a>
     <!--========== SWIPER JS ===========-->
     <script src="js/swiper-bundle.min.js"></script>
 
     <!--========== MAIN JS ===========-->
     <script src="/js/main.js"></script>
-</body>
+  </body>
 </html>
